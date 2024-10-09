@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <PackageReference Include="CoreCLR-NCalc" Version="3.1.253" />
   </ItemGroup>
 
 </Project>

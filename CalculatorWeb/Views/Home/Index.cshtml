@@ -1,10 +1,12 @@
-﻿@section Scripts {
+﻿@model CalculatorWeb.Models.Home.IndexModel
+
+@section Scripts {
     <script src="site.js" type="text/javascript"></script>
 }
 
-<form action="" method="post">
+<form asp-action="" method="post">
     <div class="calculator-grid">
-        <input id="mainInput" name="maininput" type="text" class="col-span-3" />
+        <input id="mainInput" type="text" class="col-span-3" asp-for="MainInputText"/>
         <button type="button" class="calc-clear-button">C</button>
         
         <button type="button" class="calc-button" value="7">7</button>
