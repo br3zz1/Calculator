@@ -6,5 +6,6 @@ var app = builder.Build();
 
 app.MapControllers();
 app.MapDefaultControllerRoute();
+app.UseStaticFiles();
 
 app.Run();
